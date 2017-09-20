@@ -40,7 +40,7 @@ object Test2 extends App {
   }
 
   // consider adding more cases like above, we would need to write lot of functions, one for each case
-  // see the patter? if i can pass a function and use that function to replace rangeSum, squareSum and cubeSum then
+  // see the pattern? if i can pass a function and use that function to replace rangeSum, squareSum and cubeSum then
   // i can basically write the same code in following way
 
   def sumUsingHighOrderFunction(f: Int => Int, x: Int, y: Int): Int = {
